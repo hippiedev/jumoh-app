@@ -7,11 +7,9 @@ const Courses = () => {
     return (
         <div className={classes.Courses}>
             <PageTitle>courses</PageTitle>
+            <Course plan="free" />
             <Course />
-            <Course />
-            <Course />
-            <Course />
-            <Course>Paid</Course>
+            <Course>Learn about life</Course>
         </div>
     )
 }

@@ -19,3 +19,13 @@
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+
+@media(max-width: 760px) {
+ .Button {
+     position: relative;
+     top: 0;
+     transform: none;
+     right: 0;
+     margin-top: 10px;
+ }   
+}
