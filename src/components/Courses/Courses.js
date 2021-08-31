@@ -8,7 +8,7 @@ const Courses = () => {
         <div className={classes.Courses}>
             <PageTitle>courses</PageTitle>
             <Course plan="free" />
-            <Course />
+            <Course isLive={true} />
             <Course>Learn about life</Course>
         </div>
     )

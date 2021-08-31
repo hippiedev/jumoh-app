@@ -1,6 +1,6 @@
 .Sidebar {
     width: 25%;
-    height: 100vh;
+    height: 120vh;
     float: left;
     background-color: #000080;
     padding: 20px;
@@ -31,6 +31,8 @@
 .Sidebar ul li i {
     padding-right: 15px;
 }
+
+
 
 @media(max-width: 760px) {
  .Sidebar {
