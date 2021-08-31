@@ -1,0 +1,39 @@
+.Sidebar {
+    width: 25%;
+    height: 100vh;
+    float: left;
+    background-color: #000080;
+    padding: 20px;
+}
+.Logo img{
+    background: #FF4500;
+    width: 200px;
+    height: 120px;
+    display: none;
+}
+.Logo {
+    height: fit-content;
+    width: fit-content;
+    font-size: 30px;
+    font-weight: 600;
+    color: #FF4500;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+.Sidebar ul {
+    list-style: none;
+    color: #fff;
+    font-size: 18px;
+}
+.Sidebar ul li {
+    padding-bottom: 10px;
+}
+.Sidebar ul li i {
+    padding-right: 15px;
+}
+
+@media(max-width: 760px) {
+ .Sidebar {
+     display: none;
+ }   
+}

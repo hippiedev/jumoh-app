@@ -1,0 +1,21 @@
+.Button {
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden;
+    text-transform: uppercase;
+    background: #ff590070;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    padding: 10px 16px;
+    border-radius: 0.2rem;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

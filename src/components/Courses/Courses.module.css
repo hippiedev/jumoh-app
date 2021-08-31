@@ -1,0 +1,12 @@
+.Courses {
+    width: 75%;
+    height: 100vh;
+    float: right;
+    background: #fff;
+}
+
+@media(max-width: 760px) {
+    .Courses {
+        width: 100%;
+    }
+}
